@@ -20,6 +20,8 @@ SET FOREIGN_KEY_CHECKS = 0;
 -- ----------------------------
 -- Table structure for tb_blog
 -- ----------------------------
+create database hmdp;
+use hmdp;
 DROP TABLE IF EXISTS `tb_blog`;
 CREATE TABLE `tb_blog`  (
   `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT '主键',
